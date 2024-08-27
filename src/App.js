@@ -1,5 +1,5 @@
 import "./App.css";
-import DictionarySearch from "./DictionarySearch";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <div className="container">
         <header></header>
         <main>
-          <DictionarySearch />
+          <Dictionary />
         </main>
         <footer></footer>
       </div>
