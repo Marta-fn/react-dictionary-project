@@ -1,1 +1,37 @@
+:root {
+  --roboto-font: "Roboto", system-ui;
+  --playwrite-font: "Playwrite PT", system-ui;
+}
 
+.App .container {
+  background-image: url("./background.jpg");
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: var(--roboto-font);
+}
+
+header {
+  padding: 20px;
+  font-size: 24px;
+}
+
+footer {
+  padding: 20px;
+  font-size: 14px;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

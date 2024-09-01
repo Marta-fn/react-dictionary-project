@@ -1,0 +1,13 @@
+.Dictionary form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Dictionary input {
+  font-family: var(--roboto-font);
+  width: 50%;
+  border: solid 2px #95a359;
+  border-radius: 5px;
+  padding: 5px;
+}
