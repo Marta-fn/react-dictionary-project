@@ -1,0 +1,17 @@
+.Results {
+  max-width: 800px;
+}
+
+.Results h2 {
+  font-family: var(--playwrite-font);
+  font-size: 32px;
+}
+
+@media (max-width: 768px) {
+  .Results {
+    margin-left: 20px;
+  }
+  .Results h2 {
+    font-size: 16px;
+  }
+}

@@ -9,7 +9,17 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer>Coded by Marta Nogueira</footer>
+        <footer>
+          Coded by{" "}
+          <a
+            href="https://www.linkedin.com/in/martarfnogueira/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Marta Nogueira
+          </a>{" "}
+          as part of a project for SheCodes
+        </footer>
       </div>
     </div>
   );

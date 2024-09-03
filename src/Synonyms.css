@@ -1,10 +1,19 @@
 .Synonyms ul {
   list-style-type: none;
   padding: 0;
+  margin-bottom: 0;
 }
 
 .Synonyms li {
   display: inline-block;
   margin-right: 15px;
   color: rgb(102, 102, 102);
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .Synonyms li {
+    font-size: 10px;
+    color: rgb(223, 220, 211);
+  }
 }

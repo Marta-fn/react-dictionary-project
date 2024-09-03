@@ -24,14 +24,40 @@ header {
   font-size: 24px;
 }
 
-footer {
-  padding: 20px;
-  font-size: 14px;
-}
-
 main {
-  flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 10px;
+  color: rgb(102, 102, 102);
+}
+
+footer a {
+  color: #95a359;
+}
+
+@media (max-width: 1024px) {
+  .App .container {
+    background-image: url("./background-sm.jpg");
+  }
+}
+
+@media (max-width: 768px) {
+  .App header {
+    font-size: 18px;
+  }
+
+  footer {
+    font-size: 8px;
+    color: rgb(223, 220, 211);
+  }
+
+  footer a {
+    color: #d0daa4;
+  }
 }

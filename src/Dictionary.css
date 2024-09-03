@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .Dictionary input {
@@ -10,4 +11,10 @@
   border: solid 2px #95a359;
   border-radius: 5px;
   padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .Dictionary input {
+    font-size: 12px;
+  }
 }
