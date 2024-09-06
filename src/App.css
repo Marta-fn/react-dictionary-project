@@ -45,12 +45,6 @@ footer a {
   .App .container {
     background-image: url("./background-sm.jpg");
   }
-}
-
-@media (max-width: 768px) {
-  .App header {
-    font-size: 18px;
-  }
 
   footer {
     font-size: 8px;
@@ -59,5 +53,11 @@ footer a {
 
   footer a {
     color: #d0daa4;
+  }
+}
+
+@media (max-width: 768px) {
+  .App header {
+    font-size: 18px;
   }
 }

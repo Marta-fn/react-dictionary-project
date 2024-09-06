@@ -16,8 +16,12 @@ export default function Dictionary() {
 
     const ApiKey = "8066f7209f55a447d5b43ta1a1a01obb";
     const ApiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${ApiKey}`;
-    axios.get(ApiUrl).then(handleResponse);
-    console.log(ApiUrl);
+    axios
+      .get(ApiUrl)
+      .then(handleResponse)
+      .catch((error) => {
+        alert("Please enter an English word");
+      });
   }
 
   function handleChange(event) {
